@@ -9,45 +9,7 @@ from data.parameters import PATH, LOAD, RETRAIN, PRINT_INTERVAL, NUM_EPOCHS, BAT
 from models.audio_model import audio_model
 from data.build_dataset import build_datasets
 
-"""
-Validation Score: 78.67 %
-Validation Score per Class:
-	Target 0: 85.0 %
-	Target 1: 78.9 %
-	Target 2: 79.1 %
-	Target 3: 81.7 %
-	Target 4: 81.2 %
-	Target 5: 71.1 %
-	Target 6: 80.6 %
-	Target 7: 73.6 %
-	Target 8: 84.8 %
-	Target 9: 61.0 %
-	Target 10: 86.6 %
-	Target 11: 51.3 %
-	Target 12: 90.4 %
-	Target 13: 89.7 %
-	Target 14: 64.1 %
-	Target 15: 81.0 %
-	Target 16: 82.6 %
-	Target 17: 84.8 %
-	Target 18: 66.3 %
-	Target 19: 78.0 %
-	Target 20: 68.3 %
-	Target 21: 86.3 %
-	Target 22: 81.8 %
-	Target 23: 86.6 %
-	Target 24: 89.2 %
-	Target 25: 79.6 %
-	Target 26: 83.1 %
-	Target 27: 70.8 %
-	Target 28: 82.4 %
-	Target 29: 88.1 %
-	Target 30: 68.9 %
-	Target 31: 87.8 %
-	Target 32: 87.6 %
-	Target 33: 84.4 %
-	Target 34: 77.3 %
-"""
+# Validation Score: 78.67 %
 
 class training_agent(
     ):
